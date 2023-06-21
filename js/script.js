@@ -18,19 +18,19 @@ for (var i=0; themeDots.length > i; i++){
 
 function themeSelect(mode){
     if (mode == 'default'){
-        document.getElementById('theme_color').href = 'style.css'
+        document.getElementById('theme_color').href = 'css/style.css'
     }
 
     if (mode == 'purple'){
-        document.getElementById('theme_color').href = 'purple.css'
+        document.getElementById('theme_color').href = 'css/purple.css'
     }
 
     if (mode == 'blue'){
-        document.getElementById('theme_color').href = 'blue.css'
+        document.getElementById('theme_color').href = 'css/blue.css'
     }
 
     if (mode == 'red'){
-        document.getElementById('theme_color').href = 'red.css'
+        document.getElementById('theme_color').href = 'css/red.css'
     }
 
     localStorage.setItem('theme', mode)
