@@ -393,9 +393,22 @@ h6{ font-size: 16px;}
     width:100%;
     padding-top:10px;
     padding-bottom:10px;
+    cursor:pointer;
     color:#fff;
     background-color:var(--buttonColor);
     border:none;
+}
+
+#submit_btn:hover, #submit_btn:focus{
+    opacity:0.8;
+}
+
+#submit_btn:active{
+    -webkit-transform:scale(0.80);
+    -moz-transform:scale(0.80);
+    -ms-transform:scale(0.80);
+    -o-transform:scale(0.80);
+    transform:scale(0.80);
 }
 
 @media screen and (max-width:800px) {
