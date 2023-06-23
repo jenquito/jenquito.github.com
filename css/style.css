@@ -26,7 +26,7 @@ body *{
     transition: 0.5s;
 }
 
-h1, h2, h3, h4, strong{
+h1, h2, h3, h4, h5, h6, strong{
     color:var(--mainText);
     font-family: 'Russo One', sans-serif;
 }
@@ -187,6 +187,11 @@ h6{ font-size: 16px;}
     width:200px;
     object-fit:cover;
     border:2px solid var(--borderColor);
+
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
 
 #optional_themes_wrapper{
