@@ -1,0 +1,34 @@
+body{
+    background-color: #435c84;
+    color: #ddd;
+    font-family: courier;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid tr td{
+    border: 1px solid #ddd;
+    background-color: #999;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#grid tr td.active{
+    background-color: #333;
+}
+
+#
