@@ -31,4 +31,14 @@ h1{
     background-color: #333;
 }
 
-#
+#grid tr td.mine{
+    background-color: #cd0a0a;
+}
+
+button{
+    margin: 12px 0;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

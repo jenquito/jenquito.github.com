@@ -4,7 +4,7 @@ const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 
-search.addEventListener('click', () => {
+search.addEventListener('click', (event) => {
 
     const APIKey = '741a15017c0ba3a5f8bc04ba619ee8fd';
     const city = document.querySelector('.search-box input').value;
@@ -52,6 +52,10 @@ search.addEventListener('click', () => {
                 case 'Haze':
                     image.src = 'img/haze.png';
                     break;
+                
+                case 'Mist':
+                    image.src = 'img/mist.jpg';
+                    break;
 
                 default:
                     image.src = '';
@@ -67,7 +71,6 @@ search.addEventListener('click', () => {
             weatherBox.classList.add('fadeIn');
             weatherDetails.classList.add('fadeIn');
             container.style.height = '590px';
-
 
         });
 

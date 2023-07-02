@@ -14,9 +14,13 @@
 
     --buttonColor:black;
 
-    --linkColor:black;
+    --linkColor: #fff;
 }
 
 .personalize{
     color:#fff;
+}
+
+.post a{
+    color: #2698ff;
 }
