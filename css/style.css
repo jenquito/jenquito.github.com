@@ -355,7 +355,7 @@ h6{ font-size: 16px;}
 .preview{
     background-color: #fff;
     padding:0;
-    width: 800;
+    width: auto;
 }
 
 .post_title{
